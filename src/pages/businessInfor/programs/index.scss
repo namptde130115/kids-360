@@ -1,0 +1,71 @@
+.programs-menu {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.programs {
+  background: white;
+  border-radius: 10px
+}
+
+.programs-header {
+  background: #fff;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.ant-menu-submenu:hover
+  > .ant-menu-submenu-title
+  > .ant-menu-submenu-expand-icon,
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
+  color: #f98c40;
+}
+
+.ant-menu-submenu-selected {
+  color: #f98c40;
+}
+
+.userTable-header-input1 {
+  margin-left: 10px;
+  width: 90%;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.userTable-header-input2 {
+  width: 90%;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.userTable-header-input3 {
+  width: 95%;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.userTable-div-input1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  // margin-right: 10px;
+}
+
+.userTable-div-input3 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.programs-header-title1 {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.programs-header-title {
+  font-weight: 600;
+  font-size: 15px;
+}

@@ -1,0 +1,66 @@
+.col2-header-input {
+  width: 80%;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.col2-header-btn-invite:hover,
+.col2-header-btn-invite:focus {
+  border-color: var(--sportsColor);
+  color: var(--sportsColor);
+}
+
+label.ant-radio-button-wrapper.col2-header-btn-invite {
+  height: 40px;
+  color: var(--sportsColor);
+
+  border: 1px solid #f98c40;
+  box-sizing: border-box;
+  border-radius: 6px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.ant-radio-button-wrapper:first-child:last-child {
+  border-radius: 6px;
+}
+
+.invite {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.userTable-row {
+  padding: 10px 0px;
+  margin: 10px 0px 0px;
+  background: #fff;
+  border-radius: 6px 6px 0 0;
+}
+
+.ant-pagination-item-active a {
+  color: #f98c40;
+}
+
+.ant-pagination-item-active a:hover {
+  color: #f98c40;
+}
+
+.ant-pagination-item-active {
+  font-weight: 500;
+  background: #fff;
+  border-color: #f98c40;
+}
+
+.ant-pagination-item-active:focus-visible,
+.ant-pagination-item-active:hover {
+  border-color: #f98c40;
+}
+
+.userTable {
+  background: white;
+  border-radius: 10px;
+}

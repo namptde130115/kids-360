@@ -1,0 +1,55 @@
+.mainContent-root {
+  width: 95%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.mainContent-logo {
+  width: 90%;
+  // height: 90%;
+  border-radius: 10px;
+}
+
+.mainContent-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.mainContent-div-title {
+  margin-bottom: 15px;
+}
+
+.mainContent-btn-edit {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #f98c40;
+}
+
+.mainContent-subtitle {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+
+  margin-bottom: 15px;
+}
+
+.mainContent-paragraph {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+svg {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+.ant-row {
+  margin-bottom: 8px;
+}

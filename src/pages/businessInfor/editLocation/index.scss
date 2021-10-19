@@ -1,0 +1,217 @@
+html {
+  --sportsColor: #f98c40;
+}
+
+.layout-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.editLocation-form {
+  display: flex;
+  width: 520px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.editLocation-form-input {
+  width: 520px;
+  height: 45px;
+  background: #f0f0f0;
+
+  border-radius: 10px;
+}
+
+.ant-input:hover {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: none;
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+  z-index: 1;
+}
+
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper:focus {
+  z-index: 1;
+  border-color: var(--sportsColor);
+  box-shadow: none;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  background: #f0f0f0;
+}
+
+.space {
+  align-items: center;
+  width: 600px;
+  padding: 20px 0 0;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.editLocation-groupButton-space {
+  width: 520px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editLocation-form-space {
+  width: 520px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editLocation-form-input-half {
+  width: 250px;
+  height: 45px;
+  background: #f0f0f0;
+
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.editLocation-form-title-space {
+  width: 520px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editLocation-form-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.avatar {
+  width: 84px;
+  height: 84px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.ant-form-item-control-input-content {
+  display: flex;
+  flex: auto;
+  max-width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.editLocation-form-button {
+  width: 128px;
+  height: 40px;
+  color: #f0f0f0;
+
+  border-color: var(--sportsColor);
+  background-color: var(--sportsColor);
+  border-radius: 6px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+
+  margin: 20px 0 20px 20px;
+}
+
+.editLocation-form-button-cancel {
+  width: 128px;
+  height: 40px;
+  color: var(--sportsColor);
+
+  border-color: #f0f0f0;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+
+  margin: 20px 0 20px 20px;
+}
+
+.editLocation-form-button-inactive {
+  width: 128px;
+  height: 40px;
+  color: var(--sportsColor);
+
+  border-color: var(--sportsColor);
+  background-color: #f0f0f0;
+  border-radius: 6px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+
+  margin: 20px 0;
+}
+
+.ant-btn-primary:active,
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff;
+  border-color: var(--sportsColor);
+  background-color: var(--sportsColor);
+}
+
+.editLocation-form-button-cancel:active,
+.editLocation-form-button-cancel:hover,
+.editLocation-form-button-cancel:focus {
+  color: var(--sportsColor);
+  border-color: #f0f0f0;
+  background-color: #f0f0f0;
+}
+
+.editLocation-form-button-inactive:active,
+.editLocation-form-button-inactive:hover,
+.editLocation-form-button-inactive:focus {
+  color: var(--sportsColor);
+  border-color: var(--sportsColor);
+  background-color: #f0f0f0;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  width: 250px;
+  height: 45px;
+  background: #f0f0f0;
+
+  position: relative;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: none;
+}
+
+.ant-row.ant-form-item {
+  margin-bottom: 10px;
+}

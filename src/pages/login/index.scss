@@ -1,0 +1,150 @@
+html {
+  --sportsColor: #f98c40;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.login-layout-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  display: flex;
+  width: 410px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form-input {
+  width: 380px;
+  height: 56px;
+  background: #f0f0f0;
+
+  border-radius: 10px;
+}
+
+.ant-input:hover {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: none;
+}
+
+.ant-checkbox-checked::after {
+  border: var(--sportsColor);
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+  z-index: 1;
+}
+
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper:focus {
+  z-index: 1;
+  border-color: var(--sportsColor);
+  box-shadow: none;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  background: #f0f0f0;
+}
+
+.login-layout-form-space {
+  align-items: center;
+  width: 550px;
+  padding: 50px 0;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.login-form-remember {
+  display: flex;
+  flex-direction: row;
+  width: 380px;
+}
+
+.ant-form-item-control-input-content {
+  display: flex;
+  flex: auto;
+  max-width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.login-form-button {
+  font-size: 17px;
+  font-weight: 600;
+  color: #f0f0f0;
+  padding: 12px 75px;
+
+  width: 380px;
+  height: 56px;
+  border-color: var(--sportsColor);
+  background-color: var(--sportsColor);
+}
+
+.login-form-forgot,
+.login-form-forgot:hover {
+  color: var(--sportsColor);
+}
+
+.ant-btn-primary:active,
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff;
+  border-color: var(--sportsColor);
+  background-color: var(--sportsColor);
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: var(--sportsColor);
+  border-color: var(--sportsColor);
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: var(--sportsColor);
+}
+
+.ant-row.ant-form-item {
+  margin-bottom: 16px;
+}
+
+a.ant-typography,
+.ant-typography a {
+  color: var(--sportsColor);
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+a.ant-typography:focus,
+.ant-typography a:focus,
+a.ant-typography:hover,
+.ant-typography a:hover {
+  color: var(--sportsColor);
+}
+
+.login-form-register {
+  display: block;
+  margin: 30px 0;
+}

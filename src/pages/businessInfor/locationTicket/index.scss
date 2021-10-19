@@ -1,0 +1,59 @@
+svg {
+  margin-right: 5px;
+}
+
+.location-tickets {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-ticket-root {
+  width: 90%;
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  border-radius: 6px;
+
+  margin: 5px 0;
+}
+
+.ant-row {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 10px;
+}
+
+.ant-card-body {
+  padding: 16px 16px 10px;
+}
+
+.location-ticket-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #4a4f4e;
+}
+
+.location-ticket-title {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #4a4f4e;
+}
+
+.location-ticket-img {
+  margin-right: 3px;
+  width: 14px;
+}
+
+.location-btn-edit {
+  cursor: pointer;
+}
+
+.location-btn-edit:hover {
+  color: var(--sportsColor);
+}

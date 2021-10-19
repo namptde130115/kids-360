@@ -1,0 +1,350 @@
+html {
+  --sportsColor: #f98c40;
+}
+
+.logo {
+  float: left;
+  width: 200px;
+  height: 64px;
+
+  background-color: red;
+}
+
+.ant-layout-header {
+  height: 64px;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 65px;
+
+  padding: 0;
+}
+
+.site-layout-background {
+  border-radius: 10px;
+  background: #f0f0f0;
+  margin: 0;
+  min-height: 280px;
+}
+
+.demo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.demo-nav {
+  width: 100%
+}
+
+.ant-btn-link {
+  color: #4a4f4e;
+  border-color: transparent;
+  background: transparent;
+
+  box-shadow: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  margin-top: 6px;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+  color: var(--sportsColor);
+}
+
+.col2-header-btn-add:hover,
+.col2-header-btn-add:focus {
+  border-color: var(--sportsColor);
+}
+
+.col2-header-btn-all {
+  background-color: #f0f0f0;
+  color: var(--sportsColor);
+  border-radius: 10px;
+  border-color: #f0f0f0;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+
+  height: 40px;
+}
+
+.col2-header-btn-all:hover,
+.col2-header-btn-all:focus {
+  background-color: #f0f0f0;
+  border-color: #f0f0f0;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 0px solid #fff;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+  color: var(--sportsColor);
+}
+
+.ant-menu-light .ant-menu-item:hover,
+.ant-menu-light .ant-menu-item-active,
+.ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-light .ant-menu-submenu-active,
+.ant-menu-light .ant-menu-submenu-title:hover {
+  color: var(--sportsColor);
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #fff;
+  transform: scaleY(0.0001);
+  opacity: 0;
+  transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+    opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  content: '';
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #fff;
+}
+
+.ant-menu-item-selected {
+  color: var(--sportsColor);
+  // border-right: ;
+}
+
+li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-selected.ant-menu-item-only-child {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--sportsColor);
+}
+
+li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child {
+  font-size: 18px;
+  font-weight: bold;
+  // color: var(--sportsColor);
+}
+
+.menu-item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+li.ant-menu-item.menu-item {
+  padding: 0;
+}
+
+svg {
+  margin-right: 4px;
+}
+
+element.style {
+  margin: 0px;
+  min-height: 280px;
+  border-radius: 10px;
+}
+
+.col2 {
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.col2-header {
+  width: 90%;
+  margin: 15px 0;
+}
+
+.col2-header-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.col2-header-btn-add {
+  height: 40px;
+  color: var(--sportsColor);
+
+  border: 1px solid #f98c40;
+  box-sizing: border-box;
+  border-radius: 6px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+
+  padding: 0px 5px;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+  color: var(--sportsColor);
+}
+
+.col2-header-select {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.col2-header-input {
+  width: 90%;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  background-color: #f0f0f0;
+}
+
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: none;
+}
+
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+  z-index: 1;
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: none;
+}
+
+element.style {
+  padding-left: 0;
+}
+
+button.ant-btn.ant-btn-link {
+  padding: 0;
+  margin-right: 25px;
+}
+
+.col2-header-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user {
+  width: 20%;
+  height: 64px;
+
+  position: absolute;
+  top: 0px;
+  right: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+}
+
+.user-inner {
+  width: 100px;
+  height: 40px;
+
+  border: 1px solid #f0f0f0;
+  border-radius: 40px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-user-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.ant-col-xs-8 {
+  display: flex;
+  flex: 0 0 33.33333333%;
+  max-width: 33.33333333%;
+  justify-content: center;
+}
+
+.ant-popover-inner-content {
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.ant-modal-content {
+  width: fit-content;
+}
+
+.ant-modal-close-x {
+  right: 26px;
+  top: 7px;
+  position: absolute;
+}
+
+.ant-modal-body {
+  padding: 0;
+}
+
+.col2-header-select.ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  width: 100%;
+}
+
+.BusinessInforMenu {
+  background: none;
+}
+
+li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child.businessInforMenu-item {
+  padding: 0 15px 0 5px;
+  font-size: 16px;
+}
+
+.ant-menu-horizontal > .ant-menu-item a:hover{
+  color: var(--sportsColor);
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  color: var(--sportsColor);
+}
+
+.ant-menu-item-selected a, .ant-menu-item-selected a:hover {
+  color: var(--sportsColor);
+}
+
+.ant-menu-item a:hover {
+  color: var(--sportsColor);
+}

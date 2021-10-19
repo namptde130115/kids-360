@@ -1,0 +1,150 @@
+html {
+  --sportsColor: #f98c40;
+}
+
+.register-form-button {
+  width: 100%;
+}
+
+.layout-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: center;
+  height: 100vh;
+}
+
+.register-form {
+  display: flex;
+  width: 410px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-form-input {
+  width: 380px;
+  height: 56px;
+  background: #f0f0f0;
+
+  border-radius: 10px;
+}
+
+.ant-input:hover {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: none;
+}
+
+.ant-checkbox-checked::after {
+  border: var(--sportsColor);
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+  z-index: 1;
+}
+
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper:focus {
+  z-index: 1;
+  border-color: var(--sportsColor);
+  box-shadow: none;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  background: #f0f0f0;
+}
+
+.space {
+  align-items: center;
+  width: 550px;
+  padding: 50px 0;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.register-form-remember {
+  display: flex;
+  flex-direction: row;
+  width: 380px;
+}
+
+.ant-form-item-control-input-content {
+  display: flex;
+  flex: auto;
+  max-width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.register-form-button {
+  font-size: 17px;
+  font-weight: 600;
+  color: #f0f0f0;
+  padding: 12px 75px;
+
+  width: 380px;
+  height: 56px;
+  border-color: var(--sportsColor);
+  background-color: var(--sportsColor);
+}
+
+a.register-form-forgot,
+.register-form-forgot:hover {
+  color: var(--sportsColor);
+}
+
+.ant-btn-primary:active,
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff;
+  border-color: var(--sportsColor);
+  background-color: var(--sportsColor);
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: var(--sportsColor);
+  border-color: var(--sportsColor);
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: var(--sportsColor);
+}
+
+.register-form-passTitle {
+  width: 380px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.register-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+.ant-row.ant-form-item.register-form-item-createPassword {
+  margin-bottom: 0;
+}
+
+.register-form-item-confirmpass {
+  margin: 16px 0;
+}
+.ant-row.ant-form-item {
+  margin-bottom: 16px;
+}

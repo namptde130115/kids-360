@@ -1,0 +1,159 @@
+.cvv-img {
+  width: 391px;
+  height: 241px;
+  border-radius: 12px;
+}
+
+.subcription-payment-details {
+  display: flex;
+  left: 0;
+  top: 21px;
+  position: relative;
+  width: 391px;
+  height: 241px;
+  background: linear-gradient(270deg, #63599c 0%, #8773b0 100%);
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visa-img {
+  width: 67px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+.subcription-payment-col1 {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.subcription-payment-col2 {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.subcription-cardDetails {
+  padding: 0 5%;
+  display: block;
+  width: 80%;
+  position: relative;
+}
+
+.subcription-payment-cvv {
+  position: absolute;
+  right: 6%;
+}
+
+.subcription-payment-details-text-small {
+  font-weight: 600;
+  font-size: 15px;
+  color: #f0f0f0;
+
+  display: block;
+  margin: 5px 0;
+}
+
+.subcription-payment-details-text-cvv {
+  font-weight: 600;
+  font-size: 15px;
+  color: #34221e;
+
+  display: block;
+  margin: 5px 0;
+}
+
+.subcription-payment-details-text-big {
+  font-weight: bold;
+  font-size: 18px;
+  color: #f0f0f0;
+
+  display: block;
+  margin: 20px 0 10px 0;
+}
+
+.subcription-payment-details-row {
+  width: 85%;
+}
+
+.subcription-payment-details-input {
+  width: 85%;
+  border-radius: 5px;
+}
+
+.subcription-payment-details-select {
+  width: 95%;
+  border-radius: 5px;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 5px;
+}
+
+.subcription-payment-gr-btn {
+  padding: 5%;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ant-row.subcription-payment-infor {
+  margin: 30px 0 20px;
+  background-color: #ffffff;
+  padding: 10px 5%;
+  width: 80%;
+}
+
+.ant-row.subcription-payment-infor-title {
+  margin: 30px 0 20px;
+  background-color: #ffffff;
+  padding: 10px 5%;
+  width: 100%;
+}
+
+.subcription-payment-details-input-cvv {
+  position: absolute;
+  z-index: 2;
+  top: 80px;
+  left: 296px;
+  width: 20%;
+}
+
+.subcription-payment-title {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.col1-border {
+  border: 1px solid #f0f0f0;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.border {
+  border: 1px solid #f0f0f0;
+}
+
+.col1-subcription-btn {
+  box-shadow: none;
+  width: 100%;
+}
+
+.col1-subcription-btn:hover,
+.col1-subcription-btn:focus {
+  border-color: #f98c40;
+}
+
+.col1-subcription-text {
+  display: inline-flex;
+  width: 100%;
+}

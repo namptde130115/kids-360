@@ -1,0 +1,150 @@
+html {
+  --sportsColor: #f98c40;
+}
+
+.layout-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.changePass-form {
+  display: flex;
+  width: 380px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.changePass-form-input {
+  width: 380px;
+  height: 45px;
+  background: #f0f0f0;
+
+  border-radius: 10px;
+}
+
+.ant-input:hover {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: none;
+}
+
+.ant-checkbox-checked::after {
+  border: var(--sportsColor);
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: var(--sportsColor);
+  border-right-width: 1px !important;
+  z-index: 1;
+}
+
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper:focus {
+  z-index: 1;
+  border-color: var(--sportsColor);
+  box-shadow: none;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  background: #f0f0f0;
+}
+
+.space {
+  align-items: center;
+  width: 450px;
+  padding: 20px 0 0;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.changePass-form-title-space {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.changePass-form-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.avatar {
+  width: 84px;
+  height: 84px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.changePass-form-remember {
+  display: flex;
+  flex-direction: row;
+  width: 380px;
+}
+
+.ant-form-item-control-input-content {
+  display: flex;
+  flex: auto;
+  max-width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.changePass-form-button {
+  width: 380px;
+  height: 40px;
+  color: #f0f0f0;
+
+  border-color: var(--sportsColor);
+  background-color: var(--sportsColor);
+  border-radius: 6px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+
+  margin: 20px 0;
+}
+
+.changePass-form-forgot,
+.changePass-form-forgot:hover {
+  color: var(--sportsColor);
+}
+
+.ant-btn-primary:active,
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff;
+  border-color: var(--sportsColor);
+  background-color: var(--sportsColor);
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: var(--sportsColor);
+  border-color: var(--sportsColor);
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: var(--sportsColor);
+}
+
+.ant-row.ant-form-item {
+  margin-bottom: 10px;
+}
